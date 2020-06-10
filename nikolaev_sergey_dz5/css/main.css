@@ -288,6 +288,7 @@ body {font-family:'Tahoma','Arial',sans-serif;color:#0e1b3e;letter-spacing:0,002
 	display: block;
 	color: #fff;
 	border-bottom: 1px dotted #fff;
+	height: 14px;
 }
 
 .credits__politicals:hover {
