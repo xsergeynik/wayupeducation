@@ -42,10 +42,12 @@ body {font-family:'Tahoma','Arial',sans-serif;color:#0e1b3e;letter-spacing:0,002
 	padding: 66px 0 64px 0;
 	text-align: center;
 	color: #fff;
+	box-shadow: 0 -45px 60px rgba(0, 0, 0, 0.1607843137254902) inset;
 }
 
 .logo {
 	margin: 0 0 168px 0;
+	display: block;
 }
 .logo:hover {
 	transform: scale(1.015);
@@ -85,6 +87,7 @@ body {font-family:'Tahoma','Arial',sans-serif;color:#0e1b3e;letter-spacing:0,002
 	margin: 168px 0 0 0;
  	bottom: -5px;
  	animation: bounce 4s infinite;
+ 	cursor: pointer;
 }
 
 
@@ -92,7 +95,6 @@ body {font-family:'Tahoma','Arial',sans-serif;color:#0e1b3e;letter-spacing:0,002
 
 .about {
 	padding: 107px 0 0 0;
-	box-shadow: 0 -45px 60px rgba(0, 0, 0, 0.1607843137254902);
 }
 
 .about__title {
@@ -288,7 +290,6 @@ body {font-family:'Tahoma','Arial',sans-serif;color:#0e1b3e;letter-spacing:0,002
 	display: block;
 	color: #fff;
 	border-bottom: 1px dotted #fff;
-	height: 14px;
 }
 
 .credits__politicals:hover {
