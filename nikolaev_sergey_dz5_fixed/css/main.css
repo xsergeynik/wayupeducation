@@ -89,6 +89,11 @@ body {font-family:'Tahoma','Arial',sans-serif;color:#0e1b3e;letter-spacing:0,002
  	animation: bounce 4s infinite;
 }
 
+.offer__arrow_size {
+	width: 25px;
+	height: 50px;
+}
+
 
 							/*===Section__TWO===*/
 
