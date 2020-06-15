@@ -78,16 +78,15 @@ body {font-family:'Tahoma','Arial',sans-serif;color:#0e1b3e;letter-spacing:0,002
 	box-shadow: 0 0 20px rgba(0,0,0,0.3) inset;
 }
 
-.offer:after {
-	content: '';
+.offer__arrow {
 	background: url(../img/arrow.png) no-repeat center bottom;
 	width: 25px;
 	height: 16px;
 	display: inline-block;
+	position: relative;
 	margin: 168px 0 0 0;
  	bottom: -5px;
  	animation: bounce 4s infinite;
- 	cursor: pointer;
 }
 
 
@@ -128,16 +127,17 @@ body {font-family:'Tahoma','Arial',sans-serif;color:#0e1b3e;letter-spacing:0,002
 .merit__text {
     line-height: 1.63em;
     font-size: 15px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.02em;
     margin-bottom: 1.45em;
 }
 
-.merit__text a {
+.merit__text span {
 	color: #2d63eb;
 	border-bottom: 1px solid #2d63eb;
+	cursor: pointer;
 }
 
-.merit__text a:hover {
+.merit__text span:hover {
 	border: 0;
 }
 
@@ -172,7 +172,7 @@ body {font-family:'Tahoma','Arial',sans-serif;color:#0e1b3e;letter-spacing:0,002
 }
 
 .merit__element {
-	margin: 5px 0px 25px 0px;
+	margin: 0px 0px 25px 0px;
 }
 
 .merit__content {
