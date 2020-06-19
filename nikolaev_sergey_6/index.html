@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>HW#6 - Сергей Николаев - Большое практическое занятие</title>
+	<meta name="description" content="Это домашнее задания Сергея Николаева из Команды А">
+	<meta name="keywords" content="учебная страница, лендинг, wayup, вёрстка, веб-разработка, веб-верстальщик, код фрилансера">
+	<link rel="icon" href="img/favicon.svg" type="image/x-icon">
+ 	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"> 
+	<meta property="og:title" content="Шестая домашняя работа на коучинге Веб-верстальщик: Код фрилансера">
+	<meta property="og:description" content='учебная страница, лендинг, wayup, вёрстка, веб-разработка, веб-верстальщик, код фрилансера'>
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="#">
+	<meta property="og:site_name" content="HW#5 - Сергей Николаев - Homepage">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximim-scale=1.0, user-scalable=0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="heading">
+			<div class="container d-flex align-items-center">
+				<a href="#" class="logo">
+					<i class="fa fa-plug"></i>
+					<div class="logo__content">
+					Моя школа
+					<span>верстки</span>
+					</div>
+				</a>
+				<ul class="heading__menu d-flex">
+					<li class="heading__item">
+						<a href="#about">Знаете ли вы</a>
+					</li>
+					<li class="heading__item">
+						<a href="#success">Зачем</a>
+					</li>
+					<li class="heading__item">
+						<a href="#if">Кому</a>
+					</li>
+					<li class="heading__item">
+						<a href="#revervation">Регистрация</a>
+					</li>
+				</ul>
+				<a href="tel:+749556756412" class="heading__tel ml-auto" title="Позвонить!">
+					 <i class="fa fa-phone"></i>
+					 +7 (495) 567-564-12
+				</a>
+			</div>
+		</div>
+		<div class="offer">
+			<div class="container d-flex">
+				<div class="prof">
+					<div class="prof__intro">
+						<i class="fa fa-graduation-cap"></i>
+						Онлайн-мастер-класс
+					</div>
+					<h1 class="prof__title">
+						Я — профессиональный
+						веб-верстальщик
+					</h1>
+					<div class="prof__date m-auto">
+						9 апреля в 18:00
+					</div>
+				</div>
+				<form action="#" class="form">
+					<h4 class="form__title">
+						Забронировать участие
+					</h4>
+					<div class="form__subtitle">
+						Чтобы стать профессионалом в  HTML и CSS, а также делать WOW
+					</div>
+					<input type="text" name="name" placeholder="Введите имя" class="form__input" required>
+					<input type="email" name="email" placeholder="Введите E-mail" class="form__input" required>
+					<input type="tel" name="phone" placeholder="Введите телефон" class="form__input" required>
+					<button type="submit" class="form__btn m-auto" title="Отправить!">Оставить заявку</button>
+					<div class="form__info">
+						Ваши данные под защитой
+					</div>
+				</form>
+			</div>
+		</div>
+	</header>
+	<section class="about" id="about">
+		<div class="container">
+			<div class="author__personal d-flex">
+				<div class="author__item author__item_purple">
+					<h3 class="author__name">
+						Сергей Николаев
+					</h3>
+					<div class="author__workshop">
+						Ведущий мастер-класса
+					</div>
+					<div class="author__layout">
+						Веб-верстальщик и фрилансер
+					</div>
+					<div class="author__digits d-flex">
+						<div class="author__sites d-flex">
+							<p class="author__number">
+								100+
+							</p>
+							<p class="author__desc">
+								Созданных
+								сайтов
+							</p>
+						</div>
+						<div class="author__exp d-flex">
+							<p class="author__number">
+								8
+							</p>
+							<p class="author__desc">
+								Лет
+								опыта
+							</p>
+						</div>
+					</div>
+					<a href="#" class="author__link link">
+						Узнать больше
+					</a>
+				</div>
+				<div class="bliss">
+					<h2 class="bliss__title">
+						Знаете ли вы?
+					</h2>
+					<p class="bliss__text">
+						По статистике, среднестатистический фрилансер зарабатывает около 30 тысяч рублей в месяц. Чаще всего, гораздо меньше этой цифры.
+					</p>
+				</div>
+			</div>
+			<div class="author__money d-flex justify-content-between">
+				<div class="bliss bliss_lost">
+					<h2 class="bliss__title">
+						Хм...
+					</h2>
+					<p class="bliss__text">
+						Почему же так мало? Чего не хватает фрилансерам, чтобы “пробить потолок” хотя бы...
+					</p>
+				</div>
+				<div class="author__item author__item_yellow">
+					<div class="author__caption">
+						$1000
+					</div>
+					<div class="author__question">
+						в месяц?
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="success" id="success">
+		<div class="container">
+			<h2 class="success__title">
+				Я покажу, <br>
+				как мне удается...
+			</h2>
+			<ul class="success__list d-flex justify-content-between">
+				<li class="success__item success__item_cash">
+					<div class="success__icon">1</div>
+					<div class="success__content">
+						<h4 class="success__caption">
+							Зарабатывать тысячи долларов
+						</h4>
+						<div class="success__desc">
+							Исключительно с помощью веб-верстки и навыков разработки сайтов
+						</div>
+					</div>
+				</li>
+				<li class="success__item">
+					<div class="success__icon">2</div>
+					<div class="success__content">
+						<h4 class="success__caption">
+							Работать
+							в путешествиях
+						</h4>
+						<div class="success__desc">
+							Без возврата домой, используя ноутбук и все возможности фриланса
+						</div>
+					</div>
+				</li>
+				<li class="success__item">
+					<div class="success__icon">3</div>
+					<div class="success__content">
+						<h4 class="success__caption">
+							Быть на шаг впереди конкурентов
+						</h4>
+						<div class="success__desc">
+							Используя проверенные стратегии развития, общения и работы с клиентами
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section class="if" id="if">
+		<div class="container">
+			<h2 class="if__title">
+				Если вы
+			</h2>
+			<div class="if__body d-flex justify-content-between">
+				<div class="if__item if__item_green">
+					<i class="fa fa-flag"></i>
+					<h4 class="if__caption">
+						Начинающий веб-верстальщик
+					</h4>
+				</div>
+				<div class="if__item if__item_blue">
+					<i class="fa fa-money-bill-alt"></i>
+					<h4 class="if__caption">
+						Не довольны доходами на фрилансе
+					</h4>
+				</div>
+				<div class="if__item if__item_red">
+					<i class="fa fa-meh"></i>
+					<h4 class="if__caption">
+						На фрилансе >2 лет, но ваш доход < $1000
+					</h4>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="revervation" id="revervation">
+			<div class="container d-flex justify-content-between">
+				<div class="rev m-auto">
+					<div class="rev__intro">
+						<i class="fa fa-graduation-cap"></i>
+						Онлайн-мастер-класс
+					</div>
+					<h2 class="rev__title">
+						Не потеряйте уникальную возможность.
+						Бронируйте участие уже сегодня!
+					</h2>
+					<div class="rev__date m-auto">
+						<i class="fa fa-clock"></i>
+						<span>9 апреля в 18:00</span>
+						<i class="fa fa-users"></i>
+						<span>Всего 40 мест</span>
+					</div>
+				</div>
+				<form action="#" class="form">
+					<h4 class="form__title">
+						Забронировать участие
+					</h4>
+					<div class="form__subtitle">
+						Чтобы стать профессионалом в  HTML и CSS, а также делать WOW
+					</div>
+					<input type="text" name="name" placeholder="Введите имя" class="form__input" required>
+					<input type="email" name="email" placeholder="Введите E-mail" class="form__input" required>
+					<input type="tel" name="phone" placeholder="Введите телефон" class="form__input" required>
+					<button type="submit" class="form__btn m-auto" title="Отправить!">Оставить заявку</button>
+					<div class="form__info">
+						Ваши данные под защитой
+					</div>
+				</form>
+			</div>
+	</section>
+	<footer class="footer" id="footer">
+		<div class="container d-flex align-items-center">
+			<a href="#" class="logo">
+				<i class="fa fa-plug"></i>
+				<div class="logo__content">
+					Моя школа
+					<span>верстки</span>
+				</div>
+			</a>
+		<div class="credits">
+			Все права защищены
+		</div>
+			<a href="tel:+749556756412" class="heading__tel ml-auto" title="Позвонить!">
+					 <i class="fa fa-phone"></i>
+					 +7 (495) 567-564-12
+				</a>
+		</div>
+	</footer>
+<script src="js/jquery-3.5.1.min.js"></script>
+</body>
+</html>
+		<!-- <div class="container d-flex justify-content-between">
+			<div class="box box-name">
+				<h4 class="box-name__title">
+					Ваше Имя
+				</h4>
+				<div class="box-name__subtitle">
+					Ведущий мастер-класса<br>
+					Веб-верстальщик и фрилансер
+				</div>
+				<div class="box-name__exp d-flex">
+					<div class="box-name__info">
+						<div class="box-name__digits">
+							100+
+						</div>
+						<div class="box-name__details">
+							Созданных
+							сайтов
+						</div>
+					</div>
+					<div class="box-name__info">
+						<div class="box-name__digits">
+							8
+						</div>
+						<div class="box-name__details">
+							Лет
+							опыта
+						</div>
+					</div>
+				</div>
+				<a href="#" class="box-name__btn">
+					Узнать больше
+				</a>
+			</div>
+			<div class="money money-static">
+				<h2 class="money-static__title">
+					Знаете ли вы?
+				</h2>
+				<p class="money-static__text">
+					По статистике, среднестатистический фрилансер зарабатывает около <b>30 тысяч рублей</b> в месяц. Чаще всего, гораздо меньше этой цифры.
+				</p>
+			</div>
+			<div class="money money-think">
+				<h2 class="money-think__title">
+					Хм...
+				</h2>
+				<p class="money-think__text">
+					Почему же так мало? Чего не хватает фрилансерам, чтобы “пробить потолок” хотя бы...
+				</p>
+			</div>
+			<div class="box box-cash">
+				<div class="box-cash__title">
+					$1000
+				</div>
+				<div class="box-cash__subtitle">
+					в месяц?
+			</div>
+		</div> -->
