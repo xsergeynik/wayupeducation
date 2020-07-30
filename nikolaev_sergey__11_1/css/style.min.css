@@ -1,0 +1,2270 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrl 300";
+  src: url("../fonts/MuseoSansCyrl-300.eot");
+  src: url("../fonts/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-300.woff2") format("woff2"), url("../fonts/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCyrl-300.ttf") format("truetype"), url("../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrl 700";
+  src: url("../fonts/MuseoSansCyrl-700.eot");
+  src: url("../fonts/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-700.woff2") format("woff2"), url("../fonts/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCyrl-700.ttf") format("truetype"), url("../fonts/MuseoSansCyrl-700.svg#MuseoSansCyrl-700") format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrl 100";
+  src: url("../fonts/MuseoSansCyrl-100.eot");
+  src: url("../fonts/MuseoSansCyrl-100.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-100.woff2") format("woff2"), url("../fonts/MuseoSansCyrl-100.woff") format("woff"), url("../fonts/MuseoSansCyrl-100.ttf") format("truetype"), url("../fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*====Specifical====*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+  color: #081d42;
+}
+
+h2 {
+  font-size: 29.17px;
+  font-family: "Museo Sans Cyrl 700";
+}
+
+/*--------------------*/
+.d-flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+
+.align-items-center {
+  -ms-align-items: center;
+  align-items: center;
+}
+
+/*--------------------*/
+body {
+  font-family: "Museo Sans Cyrl 300";
+  letter-spacing: 0.02em;
+}
+
+.btn {
+  display: block;
+  color: #fff;
+  background-color: #1cb883;
+  border-bottom: 3px solid #149d6f;
+  border-radius: 0;
+  font-size: 13px;
+  font-family: "Museo Sans Cyrl 700";
+  padding: 9px 0;
+}
+
+.btn i {
+  color: #46e6b0;
+  margin-right: 2px;
+}
+
+.btn:hover {
+  background: #149d6f;
+  box-shadow: none;
+  border-bottom: 3px solid #149d6f;
+  color: #fff;
+}
+
+.btn:active {
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.6) inset;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.color_red {
+  color: #b81c31;
+}
+
+.title_inner {
+  font-size: 37.5px;
+}
+
+h3 {
+  color: #081d42;
+  font-family: "Museo Sans Cyrl 700";
+}
+
+p {
+  line-height: 1.3em;
+}
+
+/*====Section__Hero====*/
+.header {
+  background: #c9cddc url(../img/bg.jpg) center top/cover no-repeat;
+}
+
+.header__top {
+  background-color: rbga(#c9cddd, 0.41);
+  border-top: 5px solid #58647a;
+  border-bottom: 4px solid #c6cae2;
+  padding: 16px 0 8px 0;
+}
+
+.logo {
+  flex: 0 0 291px;
+  height: 76px;
+}
+
+.logo img {
+  max-width: 100%;
+  display: block;
+}
+
+.menu {
+  padding: 29px 0px 0 21px;
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__item {
+  margin: 0px 27px 0px 0px;
+  position: relative;
+}
+
+.menu__item:last-child {
+  margin: 0;
+}
+
+.menu__item a {
+  font-size: 17px;
+  font-family: "Museo Sans Cyrl 700";
+  color: #3f4b60;
+}
+
+.menu__item a:before {
+  content: "";
+  transition: transform 0.5s ease;
+  position: absolute;
+  left: 0;
+  top: 22px;
+  width: 100%;
+  height: 2px;
+  background: #9a9a9f;
+  transform: scaleX(0);
+}
+
+.menu__item a:hover:before {
+  transform: scaleX(1);
+}
+
+.header__btn {
+  margin-left: auto;
+  width: 155px;
+  margin-top: 14px;
+  margin-left: 12px;
+}
+
+.header__burger {
+  display: none;
+}
+
+.header__body {
+  padding: 94px 0 146px 0;
+  box-shadow: 0px -15px 0px rgba(165, 198, 255, 0.18) inset;
+}
+
+.offer {
+  max-width: 470px;
+}
+
+.offer__title {
+  font-size: 58px;
+  font-family: "Museo Sans Cyrl 700";
+  margin: 0px 0px 17px 0px;
+}
+
+.offer__subtitle {
+  color: #081d42;
+  font-size: 29px;
+  line-height: 1.2em;
+  font-family: "Museo Sans Cyrl 100";
+}
+
+.offer__icons {
+  margin: 29px 0px 0px 0px;
+}
+
+.icons-offer__item,
+.icons-map-contacts__item {
+  display: block;
+  width: 30px;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+.icons-offer {
+  display: flex;
+  max-width: 166px;
+  background-color: rgba(255, 255, 255, 0.82);
+  padding: 6px 18px;
+  border: 3px solid rgba(255, 255, 255, 0.66);
+  border-radius: 5px;
+  font-size: 16.67px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons-offer_fb {
+  color: #3d6ca8;
+  padding: 5px 0px 5px 0px;
+  border: 2px solid #3d6ca8;
+}
+
+.icons-offer_fb:hover {
+  color: #fff;
+  background-color: #3d6ca8;
+}
+
+.icons-offer_tw {
+  color: #3bc7fc;
+  padding: 5px 0px 5px 0px;
+  border: 2px solid #3bc7fc;
+}
+
+.icons-offer_tw:hover {
+  color: #fff;
+  background-color: #3bc7fc;
+}
+
+.icons-offer_tg {
+  color: #25a3d4;
+  padding: 5px 0px 5px 0px;
+  border: 2px solid #25a3d4;
+}
+
+.icons-offer_tg:hover {
+  color: #fff;
+  background-color: #25a3d4;
+}
+
+/*====Confidence - 2 ====*/
+.confidence {
+  padding: 55px 0 31px 0;
+  background-color: #f1f1f3;
+  text-align: center;
+}
+
+.confidence__title {
+  margin: 0px 0px 39px 0px;
+}
+
+.confidence__item {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.confidence__icon {
+  width: 118px;
+  height: 118px;
+  border-radius: 100%;
+}
+
+.confidence__icon_lamp {
+  background: #c8cbdb url(../img/icons/icon1.png) no-repeat center center;
+}
+
+.confidence__icon_layers {
+  background: #c8cbdb url(../img/icons/icon2.png) no-repeat center center;
+}
+
+.confidence__icon_diez {
+  background: #c8cbdb url(../img/icons/icon3.png) no-repeat center center;
+}
+
+.confidence__subject {
+  font-size: 21px;
+  font-family: "Museo Sans Cyrl 700";
+  margin: 23px 0px 14px 0px;
+}
+
+.confidence__desc {
+  line-height: 1.2em;
+  color: #404048;
+}
+
+.confidence__btn {
+  width: 170px;
+  position: relative;
+  top: 55px;
+  font-size: 16px;
+}
+
+/*====Services - 3 ===*/
+.services {
+  padding: 114px 0 63px 0;
+  text-align: center;
+}
+
+.service {
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.service__icon {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  background: #102e62;
+  color: #fff;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.service__subject {
+  padding-top: 9px;
+  font-size: 24px;
+  font-family: "Museo Sans Cyrl 100";
+  margin-bottom: 14px;
+}
+
+.service__desc {
+  line-height: 1.2em;
+  color: #404048;
+}
+
+/*====Evernts - 4====*/
+.events {
+  padding: 36px 0 61px 0;
+  background: url(../img/events.png) no-repeat center top/cover #5c677a;
+  color: #fff;
+}
+
+.events h4 {
+  color: #fff;
+}
+
+.events h2 {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 23px;
+  margin: 0px 0px 12px 0px;
+}
+
+.mission {
+  padding: 17px 0px 0px 0px;
+  border-top: 3px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.mission__content {
+  margin: 0px 30px 0px 0px;
+}
+
+.mission__content:last-child {
+  margin: 0px 0px 0px 0px;
+}
+
+.mission__text {
+  font-size: 15px;
+  line-height: 1.3em;
+  color: rgba(255, 255, 255, 0.67);
+}
+
+.mission__text p {
+  margin: 0px 0px 20px 0px;
+}
+
+.events__btn {
+  width: 175px;
+  margin: 24px 0px 0px 0px;
+  font-size: 15.83px;
+  color: rgba(255, 255, 255, 0.72);
+  padding: 12.5px 0;
+  border: 2px solid #ced1d8;
+  text-align: center;
+  display: block;
+  transition: all 0.3s ease;
+  font-family: "Museo Sans Cyrl 700";
+}
+
+.events__btn:hover {
+  color: rgba(0, 0, 0, 0.6);
+  background-color: #fff;
+  border: 2px solid #fff;
+}
+
+.news__inner {
+  padding: 17px 0px 0px 0px;
+  border-top: 3px solid rgba(255, 255, 255, 0.1);
+}
+
+.news__item {
+  display: flex;
+  justify-content: center;
+  padding: 17px 0px 15px 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.news__item:first-child {
+  padding: 0px 0px 15px 0px;
+}
+
+.news__img {
+  margin: 0px 12px 0px 0px;
+  flex: 0 0 56px;
+  height: 55px;
+  position: relative;
+}
+
+.news__img img {
+  max-width: 100%;
+  display: block;
+}
+
+.news__img:hover .news__ovelay {
+  opacity: 1;
+}
+
+.news__ovelay {
+  transition: all 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.news__caption {
+  font-size: 12.5px;
+  font-family: "Museo Sans Cyrl 700";
+  margin: 0px 0px 12px 0px;
+  display: block;
+}
+
+.news__caption:hover {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.news__date {
+  font-size: 10.42px;
+  font-family: "Museo Sans Cyrl 100";
+  color: rgba(255, 255, 255, 0.43);
+}
+
+/* ==== Links ==== */
+.links {
+  background-color: #3a4456;
+  padding: 33px 0px;
+}
+
+.links__title {
+  font-size: 19px;
+  color: #caccd0;
+  margin: 0px 0px 18px 0px;
+}
+
+.links__list {
+  margin: 15px 0px 50px 0px;
+}
+
+.links__item {
+  margin: 0px 0px 7px 0px;
+  transition: all 12s ease;
+}
+
+.links__item a {
+  font-size: 14px;
+  font-family: "Museo Sans Cyrl 300", sans-serif;
+  color: rgba(255, 255, 255, 0.46);
+  transition: all 0.3s ease;
+}
+
+.links__item a:hover {
+  color: #fff;
+}
+
+/*==== Footer ====*/
+.footer {
+  background-color: #1f2531;
+  color: #fff;
+}
+
+.footer__wrap {
+  padding: 36px 0px 42px 0px;
+  color: #94979c;
+  line-height: 1.3em;
+  font-size: 12px;
+  font-family: "Museo Sans Cyrl 100";
+}
+
+.footer__cta {
+  margin: 0px 0px 14px 0px;
+}
+
+.footer__coaching {
+  margin: 0px 0px 23px 0px;
+}
+
+.footer__copyright span {
+  font-family: "Museo Sans Cyrl 700";
+}
+
+.footer__btn {
+  width: 155px;
+}
+
+.footer__call {
+  padding: 67px 0px 0px 14px;
+}
+
+.footer .footer-logo__img {
+  max-width: 100%;
+  display: block;
+}
+
+.footer__copyright a {
+  color: #94979c;
+  text-decoration: underline;
+}
+
+.footer__copyright a:hover {
+  text-decoration: none;
+}
+
+.footer .coaching-footer__inner {
+  display: flex;
+}
+
+.footer .coaching-footer__icon {
+  display: block;
+  width: 25px;
+  padding: 11.5px 0;
+  font-size: 14.58px;
+  border: 1px solid #94979c;
+  margin: 0px 10px 0px 0px;
+  text-align: center;
+  align-self: center;
+  line-height: 0;
+  color: #94979c;
+  transition: all 0.4s ease;
+}
+
+.footer .coaching-footer__icon:hover {
+  background-color: #fff;
+  color: #1f2531;
+}
+
+.footer .coaching-footer__content {
+  font-size: 10px;
+}
+
+.footer .coaching-footer__content span {
+  display: block;
+  font-size: 12px;
+}
+
+.footer-line {
+  min-height: 16px;
+  background-color: #58647a;
+}
+
+.white-popup-block {
+  background: #fff;
+  padding: 44px 54px 53px 47px;
+  max-width: 413px;
+  margin: 40px auto;
+  position: relative;
+  border-radius: 5px;
+}
+
+.modal-form {
+  text-align: center;
+}
+
+.modal-form__title {
+  font-size: 21px;
+  color: #081d42;
+  font-family: "Museo Sans Cyrl 700";
+  margin: 0px 0px 16px 0px;
+}
+
+.modal-form__subtitle {
+  color: #404048;
+}
+
+.modal-form__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form__input {
+  padding: 26px 0 13px 0;
+  border-bottom: 1px solid #757888;
+}
+
+.modal-form__btn {
+  margin: 30px 0px 0px 0px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  transition: all .3s;
+}
+
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: .9;
+}
+
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+  transition: all .3s;
+}
+
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
+
+.mfp-close {
+  width: 0;
+  height: 0;
+  font-size: 0;
+}
+
+#page-preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #c9cddc;
+  z-index: 100500;
+}
+
+#page-preloader .spinner {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: url("/images/spinner.gif") no-repeat 50% 50%;
+  margin: -16px 0 0 -16px;
+}
+
+.cssload-loader {
+  position: relative;
+  left: calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  top: 50%;
+  margin-top: -40px;
+  border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  perspective: 1000px;
+}
+
+.cssload-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.cssload-inner.cssload-one {
+  left: 0%;
+  top: 0%;
+  animation: cssload-rotate-one 2.35s linear infinite;
+  -o-animation: cssload-rotate-one 2.35s linear infinite;
+  -ms-animation: cssload-rotate-one 2.35s linear infinite;
+  -webkit-animation: cssload-rotate-one 2.35s linear infinite;
+  -moz-animation: cssload-rotate-one 2.35s linear infinite;
+  border-bottom: 4px solid #b81c31;
+}
+
+.cssload-inner.cssload-two {
+  right: 0%;
+  top: 0%;
+  animation: cssload-rotate-two 2.35s linear infinite;
+  -o-animation: cssload-rotate-two 2.35s linear infinite;
+  -ms-animation: cssload-rotate-two 2.35s linear infinite;
+  -webkit-animation: cssload-rotate-two 2.35s linear infinite;
+  -moz-animation: cssload-rotate-two 2.35s linear infinite;
+  border-right: 4px solid #b81c31;
+}
+
+.cssload-inner.cssload-three {
+  right: 0%;
+  bottom: 0%;
+  animation: cssload-rotate-three 2.35s linear infinite;
+  -o-animation: cssload-rotate-three 2.35s linear infinite;
+  -ms-animation: cssload-rotate-three 2.35s linear infinite;
+  -webkit-animation: cssload-rotate-three 2.35s linear infinite;
+  -moz-animation: cssload-rotate-three 2.35s linear infinite;
+  border-top: 4px solid #b81c31;
+}
+
+@keyframes cssload-rotate-one {
+  0% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+  }
+}
+
+@-o-keyframes cssload-rotate-one {
+  0% {
+    -o-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+  }
+  100% {
+    -o-transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+  }
+}
+
+@-ms-keyframes cssload-rotate-one {
+  0% {
+    -ms-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+  }
+  100% {
+    -ms-transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+  }
+}
+
+@-webkit-keyframes cssload-rotate-one {
+  0% {
+    -webkit-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+  }
+}
+
+@-moz-keyframes cssload-rotate-one {
+  0% {
+    -moz-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+  }
+  100% {
+    -moz-transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+  }
+}
+
+@keyframes cssload-rotate-two {
+  0% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+  }
+}
+
+@-o-keyframes cssload-rotate-two {
+  0% {
+    -o-transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+  }
+  100% {
+    -o-transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+  }
+}
+
+@-ms-keyframes cssload-rotate-two {
+  0% {
+    -ms-transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+  }
+  100% {
+    -ms-transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+  }
+}
+
+@-webkit-keyframes cssload-rotate-two {
+  0% {
+    -webkit-transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+  }
+}
+
+@-moz-keyframes cssload-rotate-two {
+  0% {
+    -moz-transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+  }
+  100% {
+    -moz-transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+  }
+}
+
+@keyframes cssload-rotate-three {
+  0% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+  }
+}
+
+@-o-keyframes cssload-rotate-three {
+  0% {
+    -o-transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+  }
+  100% {
+    -o-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+  }
+}
+
+@-ms-keyframes cssload-rotate-three {
+  0% {
+    -ms-transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+  }
+  100% {
+    -ms-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+  }
+}
+
+@-webkit-keyframes cssload-rotate-three {
+  0% {
+    -webkit-transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+  }
+}
+
+@-moz-keyframes cssload-rotate-three {
+  0% {
+    -moz-transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+  }
+  100% {
+    -moz-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+  }
+}
+
+/*====! --->  ---> --->Page (2)<--- <--- <--- !====*/
+.header_inner {
+  background-color: #e5e6e8;
+}
+
+/*====! ---> Page (2) Abouts <--- !====*/
+.abouts,
+.services,
+.contacts {
+  background-color: #fafafb;
+  padding: 68px 0;
+}
+
+.about__title,
+.services__title,
+.contacts__title {
+  margin: 0px 0px 12px 0px;
+}
+
+.about__links,
+.services__links,
+.contacts__links {
+  color: #7e838d;
+}
+
+.about__link,
+.services__link,
+.contacts__link {
+  font-size: 15.62px;
+  color: #49556b;
+  text-decoration: underline;
+}
+
+.about__link:hover,
+.services__link:hover,
+.contacts__link:hover {
+  text-decoration: none;
+  color: #2a303a;
+}
+
+.about__navigation,
+.services__navigation,
+.contacts__navigation {
+  padding: 21px 0px 0px 2px;
+  height: 50px;
+}
+
+.list-about__item,
+.list-services__item,
+.list-contacts__item {
+  padding: 11px 13px 13px 17px;
+  transition: all 0.3s ease;
+  font-size: 15.83px;
+}
+
+.list-about__item:hover,
+.list-services__item:hover,
+.list-contacts__item:hover {
+  border: 2px solid #b81c31;
+  border-radius: 2px;
+}
+
+.list-about__item a,
+.list-services__item a,
+.list-contacts__item a {
+  color: #a1a6af;
+  font-family: "Museo Sans Cyrl 700";
+  transition: all 0.3s ease;
+}
+
+.list-about__item a:hover,
+.list-services__item a:hover,
+.list-contacts__item a:hover {
+  color: #b81c31;
+}
+
+.parallax {
+  background: url(../img/bg.jpg) no-repeat fixed center top;
+  color: #fff;
+  text-align: center;
+}
+
+/*====! ---> Page (2) - Benefits <--- !====*/
+.benefits {
+  padding: 57px 0px 51px 0px;
+}
+
+.benefit__title {
+  font-size: 29.17px;
+  margin: 0px 0px 33px 0px;
+}
+
+.benefit__list {
+  margin: 50px 0px 0px 0px;
+  border-top: 1px solid #e5e6e8;
+}
+
+.list-benefit__item {
+  padding: 29px 0 22px;
+  position: relative;
+  display: flex;
+}
+
+.list-benefit__item:after {
+  content: "";
+  top: 154px;
+  height: 1px;
+  width: 960px;
+  background: #e5e6e8;
+  position: absolute;
+}
+
+.list-benefit__icon {
+  background: url(../img/about/01.png) no-repeat center center;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #102e62;
+  margin-right: 36px;
+  padding: 29px;
+  border-radius: 50%;
+}
+
+.list-benefit__title {
+  font-size: 18px;
+  margin-bottom: 16px;
+  letter-spacing: 0.02em;
+}
+
+.list-benefit__text {
+  line-height: 1.3em;
+  color: #404048;
+}
+
+/*====! ---> Page (2) - Capacities <--- !====*/
+.capacities {
+  padding: 0px 0px 70px 0px;
+}
+
+.capacities__title {
+  font-size: 29.17px;
+  margin: 0px 0px 43px 0px;
+}
+
+.capacities__content {
+  position: relative;
+  display: block;
+}
+
+.capacities__img img {
+  max-width: 100%;
+  display: block;
+}
+
+.capacities__ovelay {
+  background-color: rgba(58, 68, 86, 0.69);
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  border: 7px solid #9a97a7;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.capacities__ovelay:hover {
+  opacity: 1;
+}
+
+.capacities__ovelay a span {
+  color: #fff;
+  font-size: 29.17px;
+}
+
+.capacities__ovelay a span:hover {
+  transform: scale(1.01);
+}
+
+/*====! --->  ---> --->Page (3)<--- <--- <--- !====*/
+/*====! ---> Page (3) - Services <--- !====*/
+.services__title {
+  text-align: left;
+}
+
+.services__links {
+  text-align: left;
+}
+
+.services__navigation {
+  padding: 12px 0px 0px 43px;
+}
+
+.list-services {
+  text-align: left;
+}
+
+.list-services__item {
+  padding: 12px 17px 16px 16px;
+}
+
+.list-services__item a {
+  font-family: "Museo Sans Cyrl 300";
+  font-size: 13px;
+}
+
+.list-services__item a span {
+  font-family: "Museo Sans Cyrl 700";
+  display: block;
+  line-height: 1.4em;
+  font-size: 15.83px;
+}
+
+/*====! ---> Page (3) - Escort <--- !====*/
+.escort {
+  padding: 42px 0px 24px 0px;
+  background: url(../img/services/bg-fixed.jpg) no-repeat fixed center top/cover;
+  color: #fff;
+}
+
+.escort a {
+  color: #fff;
+}
+
+.escort__wrap {
+  display: flex;
+  align-items: center;
+  padding: 11px 0px 9px 0px;
+}
+
+.escort__img {
+  margin: 0px 61px 0px 0px;
+}
+
+.escort__title {
+  color: #fff;
+  font-family: "Museo Sans Cyrl 700";
+  font-size: 25px;
+  max-width: 200px;
+  margin: 0px 0px 19px 0px;
+}
+
+.escort__text {
+  max-width: 320px;
+  letter-spacing: 0.02em;
+}
+
+.escort__list {
+  border: 2px solid #bfc3ce;
+  border-radius: 5px;
+  padding: 18px 0 9px 24px;
+}
+
+.escort__item {
+  font-size: 15.45px;
+  margin: 0px 0px 18px 0px;
+}
+
+.escort__item a:hover {
+  text-decoration: underline;
+}
+
+/*====! ---> Page (3) - Subcategory <--- !====*/
+.subcategory__wrap {
+  padding: 52px 0px 54px 0px;
+}
+
+.subcategory__title {
+  margin: 0px 0px 25px 0px;
+}
+
+.subcategory__text {
+  font-size: 15px;
+}
+
+.consultation {
+  max-width: 470px;
+  border: 1px solid #e3e4e6;
+  border-radius: 5px;
+  position: relative;
+  padding: 26px 0 28px 31px;
+  margin-top: 36px;
+}
+
+.consultation:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 15px;
+  right: 13px;
+  background: url(../img/services/call.png);
+  width: 110px;
+  height: 83px;
+}
+
+.consultation__title {
+  font-size: 16px;
+  margin: 0px 0px 15px 0px;
+}
+
+.consultation__links {
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 16px 0px;
+}
+
+.consultation__btn {
+  margin-right: 17px;
+  font-family: "Museo Sans Cyrl 700";
+  color: #b81c31;
+  width: 158px;
+  padding: 12px 0;
+  text-align: center;
+  display: block;
+  border: 2px solid #b81c31;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.consultation__btn:hover {
+  background-color: #b81c31;
+  color: #fff;
+}
+
+.consultation__tel {
+  color: #585f6b;
+  font-family: "Museo Sans Cyrl 700";
+}
+
+.consultation__tel:hover {
+  color: #585f6b;
+  text-decoration: underline;
+}
+
+.consultation__info {
+  font-size: 12px;
+  max-width: 265px;
+  line-height: 1.3em;
+}
+
+.navigation {
+  background-color: #fafafb;
+  padding: 48px 0px 107px 0px;
+}
+
+.navigation__title {
+  margin-left: 26px;
+  font-size: 17.92px;
+  color: #969ca9;
+}
+
+.navigation__list {
+  margin-top: 42px;
+  margin-bottom: 56px;
+}
+
+.navigation__item {
+  padding: 15px 100px 12px 52px;
+  position: relative;
+  font-size: 15.42px;
+  border-top: 1px solid #dfdfe8;
+}
+
+.navigation__item:last-child {
+  border-bottom: 1px solid #dfdfe8;
+}
+
+.navigation__item a {
+  color: #747487;
+  font-family: "Museo Sans Cyrl 700";
+}
+
+.navigation__item:before {
+  content: "";
+  width: 11px;
+  height: 11px;
+  display: block;
+  position: absolute;
+  top: 16px;
+  left: 23px;
+  border-radius: 3px;
+  background-color: #aeaeb9;
+}
+
+.slider {
+  text-align: center;
+  margin: 37px 0px 0px 0px;
+}
+
+.slider__avatar {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.slider__prev {
+  position: absolute;
+  top: 57px;
+  left: 32px;
+  font-size: 25px;
+  color: #404048;
+}
+
+.slider__next {
+  position: absolute;
+  top: 57px;
+  right: 25px;
+  font-size: 25px;
+  color: #404048;
+}
+
+.slider__title {
+  margin: 16px 0px 18px 0px;
+  font-size: 15.42px;
+  font-family: "Museo Sans Cyrl 700";
+  color: #747487;
+}
+
+.slider__desc {
+  padding: 0 35px;
+}
+
+.slider__social-icon {
+  margin: 14px 0px 26px 0px;
+}
+
+.slider__social-icon a {
+  color: #2c60a0;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 25px;
+  color: #404048 !important;
+  transition: all 0.5s ease;
+  top: 24%;
+  opacity: 1;
+  z-index: 100;
+  width: 9px;
+  height: 16px;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #7f7f8d;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+
+.slick-disabled {
+  opacity: 0.25;
+}
+
+.slick-prev {
+  left: 26px;
+  z-index: 100;
+}
+
+.slick-prev:hover {
+  left: 24px;
+}
+
+.slick-next {
+  right: 24px;
+}
+
+.slick-next:hover {
+  right: 22px;
+}
+
+.slick-dots li button:before {
+  content: "";
+  background-color: #bdc5d6;
+  width: 11px;
+  height: 11px;
+}
+
+.slick-dots li .slick-active {
+  background-color: #8b9ab7;
+}
+
+/*====! ---> Page (4) <--- !====*/
+.map-google {
+  position: relative;
+  background: #8b9ab7;
+  height: 445px;
+}
+
+.map-google iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.container-fluid_fullscreen {
+  padding: 0;
+}
+
+.map-contacts {
+  background: rgba(88, 100, 122, 0.75);
+  max-width: 470px;
+  padding: 20px 38px 37px 30px;
+  position: absolute;
+  color: #ffffff;
+  border-radius: 5px;
+  right: 47px;
+  bottom: 57px;
+}
+
+.map-contacts:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: -50px;
+  border: 25px solid transparent;
+  border-right: 25px solid rgba(88, 100, 122, 0.75);
+}
+
+.map-contacts a {
+  color: #fff;
+}
+
+.map-contacts__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 19px;
+  border-bottom: 1px solid #999fab;
+}
+
+.map-contacts__title {
+  color: #fff;
+  font-size: 21px;
+  letter-spacing: 0.02em;
+}
+
+.map-contacts__body {
+  margin: 42px 0px 0px 0px;
+  font-size: 16px;
+}
+
+.map-contacts__item {
+  max-width: 192px;
+}
+
+.map-contacts__tel {
+  margin: 0px 0px 23px 0px;
+}
+
+.map-contacts__adress {
+  line-height: 1.5em;
+  margin-bottom: 23px;
+  width: 150px;
+}
+
+.map-contacts__adress i {
+  margin-right: 7px;
+}
+
+.map-contacts__desc {
+  font-size: 12px;
+  margin-left: 33px;
+}
+
+.icons-map-contacts {
+  display: flex;
+  font-size: 16.67px;
+}
+
+.icons-map-contacts__item {
+  padding: 5px;
+  border: 2px solid #fff;
+  margin-left: 20px;
+}
+
+.icons-map-contacts__item:hover {
+  color: rgba(88, 100, 122, 0.75);
+  background-color: #fff;
+}
+
+.tel-contacts-map__link {
+  display: block;
+  margin: 0px 0px 8px 0px;
+}
+
+.map-contacts_second {
+  position: static;
+  max-width: 100%;
+  margin: 24px 0px 28px 0px;
+}
+
+.map-contacts_second:after {
+  content: "";
+  display: none;
+}
+
+.map-contacts__body_second {
+  justify-content: space-between;
+}
+
+.map-contacts__item_second {
+  max-width: 370px;
+}
+
+.map-contacts__adress_second span {
+  padding-left: 27px;
+  display: block;
+}
+
+/*====Media Quaries====*/
+@media (max-width: 1200px) {
+  .menu {
+    padding-left: 0;
+  }
+  .menu__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .menu__item {
+    margin: 0px 25px 5px 0px;
+  }
+  .menu__item a {
+    letter-spacing: -0.09em;
+  }
+  /*====! ---> Page (2) <--- !====*/
+  .list-benefit__item:after {
+    width: 900px;
+  }
+  .list-about__item {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 992px) {
+  body.lock {
+    overflow: hidden;
+  }
+  .header .burger {
+    display: block;
+    position: relative;
+    width: 23px;
+    height: 21px;
+    z-index: 2;
+    margin-left: auto;
+    margin: 21px auto 0px auto;
+  }
+  .header .burger span {
+    position: absolute;
+    background-color: #3f4b60;
+    width: 100%;
+    height: 3px;
+    top: 9px;
+    transition: 0.3s ease;
+  }
+  .header .burger:before, .header .burger:after {
+    content: "";
+    background-color: #3f4b60;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    transition: 0.3s ease;
+  }
+  .header .burger:before {
+    top: 0;
+  }
+  .header .burger:after {
+    bottom: 0;
+  }
+  .header .burger.active:before, .header .burger.active:after {
+    background-color: #fff;
+  }
+  .header .burger.active:before {
+    transform: rotate(45deg);
+    top: 9px;
+  }
+  .header .burger.active:after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+  }
+  .header .burger.active span {
+    transform: scale(0);
+  }
+  .menu,
+  .menu-collapse {
+    position: fixed;
+    left: 0;
+    top: -110%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    text-align: center;
+    padding: 120px 0px 0px 0px;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    margin: 0px 0px 0px 0px;
+    justify-content: flex-start;
+    transition: 0.3s ease;
+    overflow: auto;
+  }
+  .menu.active,
+  .menu-collapse.active {
+    top: 0;
+  }
+  .menu__list,
+  .menu-collapse__list {
+    display: block;
+  }
+  .menu__item,
+  .menu-collapse__item {
+    margin: 0 auto 20px auto;
+  }
+  .menu__item a,
+  .menu-collapse__item a {
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 0em;
+  }
+  .menu__item a:hover:before,
+  .menu-collapse__item a:hover:before {
+    transform: scaleX(0);
+  }
+  p {
+    letter-spacing: 0.0001em;
+  }
+  .confidence {
+    padding: 58px 0 0px 0;
+  }
+  .confidence__btn {
+    top: 22px;
+  }
+  .confidence__item {
+    margin: 0px 0px 44px 0px;
+  }
+  .events__btn {
+    margin: 0px 0px 44px 0px;
+  }
+  .news__item {
+    justify-content: flex-start;
+    border-bottom: none;
+    position: relative;
+  }
+  .news__item:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 268px;
+    height: 1px;
+    background-color: #697488;
+  }
+  .footer__call {
+    display: none;
+  }
+  /*====! ---> Page (2)<--- !====*/
+  .list-benefit__item:after {
+    display: none;
+  }
+  .list-benefit__item {
+    border-bottom: 1px solid #e5e6e8;
+  }
+  .abouts {
+    text-align: center;
+  }
+  .about__links {
+    margin: 0px 0px 44px 0px;
+  }
+  .about__navigation {
+    display: flex;
+    justify-content: center;
+  }
+  .list-about__item {
+    padding: 11px 13px 26px 17px;
+  }
+  .services__title,
+  .services__links {
+    text-align: center;
+  }
+  .escort__navigation {
+    display: none;
+  }
+  .consultation {
+    max-width: none;
+  }
+  .slider {
+    margin: 57px 0px 0px 0px;
+  }
+  .contacts__title,
+  .contacts__links {
+    text-align: center;
+  }
+  .contacts__list {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .capacities__item {
+    margin: 0px 0px 28px 0px;
+  }
+  .escort__wrap {
+    margin: 0px 0px 27px 0px;
+  }
+  .escort__navigation {
+    display: flex;
+    justify-content: center;
+  }
+  .escort__list {
+    padding: 25px 25px 8px 25px;
+  }
+  .escort__item {
+    font-size: 18px;
+  }
+  .escort__navigation {
+    display: none;
+  }
+  .map-contacts__body_second {
+    flex-direction: column;
+  }
+  .map-contacts__item_second {
+    margin-bottom: 27px;
+  }
+  .map-contacts_second {
+    padding-bottom: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .offer__title {
+    font-size: 45px;
+    line-height: 1em;
+  }
+  .offer__subtitle {
+    font-size: 25px;
+  }
+  .header__body {
+    padding: 101px 0 105px 0;
+  }
+  .links {
+    text-align: center;
+  }
+  .footer__wrap {
+    text-align: center;
+    padding: 25px 0;
+  }
+  .footer__wrap:first-child {
+    padding-bottom: 0;
+  }
+  .coaching-footer__inner a {
+    display: block;
+  }
+  .coaching-footer__inner {
+    justify-content: center;
+  }
+  .footer__call {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 42px 0;
+  }
+  .list-about,
+  .list-services {
+    flex-direction: column;
+  }
+  .abouts {
+    padding: 68px 0 304px 0;
+  }
+  .benefit__title,
+  .services__title,
+  .services__links {
+    text-align: center;
+  }
+  .list-benefit__item {
+    display: flex;
+    flex-direction: column;
+  }
+  .list-benefit__title {
+    text-align: center;
+    letter-spacing: 0;
+  }
+  .list-benefit__icon {
+    margin: 0px 0px 33px 0px;
+  }
+  .capacities__item {
+    display: flex;
+    justify-content: center;
+  }
+  .capacities__item {
+    margin: 0px 0px 23px 0px;
+  }
+  .capacities {
+    padding: 0px 0px 47px 0px;
+  }
+  .list-services {
+    flex-direction: column;
+  }
+  .escort__wrap {
+    flex-direction: column;
+    text-align: center;
+  }
+  .escort__img {
+    margin: 0 auto;
+  }
+  .escort__title {
+    margin: 0 auto;
+  }
+  .list-services {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .services {
+    padding: 68px 0 210px 0;
+  }
+  .services__navigation {
+    padding: 30px 0px 0px 0px;
+  }
+  .list-services__item {
+    padding: 12px 0px 16px 0px;
+    width: 234px;
+    margin: 0 auto;
+  }
+  .list-contacts {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacts {
+    padding: 70px 0 140px 0;
+  }
+  .services {
+    padding: 68px 0 69px 0;
+  }
+}
